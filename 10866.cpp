@@ -1,3 +1,4 @@
+// STL 3 p.36
 #include <iostream>
 #include <deque>
 #include <string>

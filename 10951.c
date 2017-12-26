@@ -1,3 +1,4 @@
+// STL 1 p.7
 #include <stdio.h>
 int main(void) {
 	int x, y;

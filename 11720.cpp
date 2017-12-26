@@ -1,5 +1,5 @@
+// STL 1 p.16
 #include <stdio.h>
-
 int main() {
 	int x[100];
 	int n, sum;

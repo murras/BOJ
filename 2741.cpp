@@ -1,3 +1,4 @@
+// STL 2 p.6
 #include <iostream>
 using namespace std;
 int main() {
