@@ -1,4 +1,5 @@
 // STL 1 p.14
+// 알고리즘 기초 1 p.34
 #include <iostream>
 #include <string>	
 using namespace std;

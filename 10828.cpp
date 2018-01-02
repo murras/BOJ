@@ -1,4 +1,5 @@
 // STL 3 p.68
+// 알고리즘 기초 2 p.7
 #include <iostream>
 #include <stack>
 #include <string>

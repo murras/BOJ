@@ -1,3 +1,4 @@
+// 알고리즘 기초 1 p.38
 #include <iostream>
 #include <string>
 using namespace std;

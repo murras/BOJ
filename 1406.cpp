@@ -1,4 +1,5 @@
 // STL 3 p.40
+// 알고리즘 기초 2 p.23
 #include <iostream>
 #include <list>
 #include <string>

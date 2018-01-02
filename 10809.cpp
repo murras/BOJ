@@ -1,3 +1,5 @@
+// STL 5 p.12
+// 알고리즘 기초 2 p.52
 #include <iostream>
 #include <string>
 #include <algorithm>

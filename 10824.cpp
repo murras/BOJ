@@ -1,3 +1,5 @@
+// STL 4 p.29
+// 알고리즘 기초 2 p.59
 #include <iostream>
 #include <string>
 using namespace std;

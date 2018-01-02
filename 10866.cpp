@@ -1,4 +1,5 @@
 // STL 3 p.36
+// 알고리즘 기초 2 p.47
 #include <iostream>
 #include <deque>
 #include <string>

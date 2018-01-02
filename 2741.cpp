@@ -1,4 +1,5 @@
 // STL 2 p.6
+// 알고리즘 기초 1 p.38
 #include <iostream>
 using namespace std;
 int main() {

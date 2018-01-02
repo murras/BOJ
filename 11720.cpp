@@ -1,4 +1,5 @@
 // STL 1 p.16
+// 알고리즘 기초 1 p.36
 #include <stdio.h>
 int main() {
 	int x[100];
