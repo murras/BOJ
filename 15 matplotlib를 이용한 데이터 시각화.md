@@ -11,7 +11,7 @@ plt.plot([1,2,3,4])
 plt.show()
 ```
 
-<img src="https://wikidocs.net/images/page/4760/r15.01.png" width="70%">
+<img src="https://wikidocs.net/images/page/4760/r15.01.png" width="30%">
 
 - x의 범위가 있을 때
 ```
@@ -20,4 +20,4 @@ y = [v*v for v in x]
 plt.plot(x,y)
 plt.show()
 ```
-<img src="https://wikidocs.net/images/page/4760/r15.03.png" width="70%">
+<img src="https://wikidocs.net/images/page/4760/r15.03.png" width="30%">
