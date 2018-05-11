@@ -1,16 +1,35 @@
+#include <algorithm>
 #include <iostream>
 #include <vector>
 using namespace std;
-vector<pair<int, int> > v;
-int b();
-int d(int x1, int y1, int x2, int y2){
-    return (x1-x2)*(x1-x2)+(y1-y2)*(y1-y2);
+struct P {
+    int x;
+    int y;
+    P(int x, int y) {
+        this->x = x;
+        this->y = y;
+    }
+    bool operator<(const P &v) {
+        if (x == v.x) {
+            return y < v.y;
+        } else {
+            return x < v.x;
+        }
+    }
+} int power(int x) {
+    return x * x;
 }
+int dist(P p1, P p2){
+    return power(p1.x - p2.x)+power(p1.y-p2.y
+} 
+vector<P> v;
+
 int main() {
     int n;
-    for (int i = 0; i < n; i++) {
-        int x, y;
-        cin >> x >> y;
-        v.push_back({x, y});
+    cin >> n;
+    vecotr<P> v(n);
+    for(int i=0; i<n;i++){
+        cin >> a[i].x >> a[i].y;
     }
+    sort(v.begin(), v.end());
 }

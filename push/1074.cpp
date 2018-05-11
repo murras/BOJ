@@ -1,4 +1,4 @@
-// ¾Ë°í¸®Áò Áß±Ş Part1
+// ï¿½Ë°ï¿½ï¿½ï¿½ ï¿½ß±ï¿½ Part1
 #include <iostream>
 using namespace std;
 int p2(int k) {
@@ -8,7 +8,7 @@ int divide(int n, int row, int col) {
 	if (n == 1)
 		return 2 * row + col;
 	else {
-		int plus = p2(2 * n - 2);
+		int plus = p2(2 * n - 2); // í•œ ë¸”ëŸ­ì˜ í¬ê¸° (1/4)
 		if (row < p2(n - 1)) {
 			if (col < p2(n - 1))
 				return divide(n - 1, row, col);
