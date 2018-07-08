@@ -1,4 +1,4 @@
-// ¾Ë°í¸®Áò ±âÃÊ 1 p.25
+// ï¿½Ë°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 1 p.25
 #include <iostream>
 using namespace std;
 int main() {
