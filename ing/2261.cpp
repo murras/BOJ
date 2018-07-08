@@ -16,18 +16,20 @@ struct P {
             return x < v.x;
         }
     }
-} int power(int x) {
+};
+int power(int x) {
     return x * x;
+    
 }
 int dist(P p1, P p2){
-    return power(p1.x - p2.x)+power(p1.y-p2.y
+    return power(p1.x - p2.x)+power(p1.y-p2.y);
 } 
 vector<P> v;
 
 int main() {
     int n;
     cin >> n;
-    vecotr<P> v(n);
+    vector<P> v(n);
     for(int i=0; i<n;i++){
         cin >> a[i].x >> a[i].y;
     }

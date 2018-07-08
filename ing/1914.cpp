@@ -2,7 +2,7 @@
 #include <vector>
 #include <math.h>
 using namespace std;
-int count;
+int count; 
 int h[101][101];
 vector<pair<int, int> > v;
 void hanoi(int from, int to, int n) {
