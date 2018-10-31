@@ -1,2 +1,4 @@
 KAKAO/
-BOJ/ing/a.exe
+*.exe
+*.dat
+*.html
