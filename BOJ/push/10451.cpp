@@ -1,4 +1,4 @@
-// ¾Ë°í¸®Áò ±âÃÊ 6
+// ï¿½Ë°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 6
 #include <iostream>
 using namespace std;
 int vec[1001];
@@ -19,7 +19,6 @@ int main() {
 		cin >> n;
 		for (int i = 1; i <= n; i++) {
 			cin >> vec[i];
-			c[i] = false;
 		}
 		int r = 0;
 		for (int i = 1; i <= n; i++) {
