@@ -1,4 +1,4 @@
-## [BOJ ###번 ## 문제](https://noj.am/ ## )
+## [BOJ ###번 ## 문제](https://www.acmicpc.net/problem/####)
 
 
 > #####.cpp
