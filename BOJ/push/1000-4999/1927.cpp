@@ -1,24 +1,23 @@
-// STL 3 p.82
-#include <iostream>
-#include <queue>
+#include <bits/stdc++.h>
 using namespace std;
-int main(){
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
     priority_queue<int, vector<int>, greater<int> > pq;
     int n;
     cin >> n;
-    while(n--){
-        int x;
-        cin >> x;
-        if(x == 0){
-            if(pq.empty()){
-                cout << 0 << endl;
-            }
-            else {
-            cout << pq.top() << endl;
-            pq.pop();
+    while (n--) {
+        int input;
+        cin >> input;
+        if (input != 0) {
+            pq.push(input);
+        } else {
+            if (pq.empty()) {
+                cout << "0" << '\n';
+            } else {
+                cout << pq.top() << '\n';
+                pq.pop();
             }
         }
-        else
-            pq.push(x);
     }
 }
