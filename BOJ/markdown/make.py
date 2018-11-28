@@ -16,7 +16,7 @@ content += "백준 " + str(pNum) + "번 : " + pName + " C++\n"
 content += "> " + pNum + ".cpp\n\n"
 content += "```cpp\n"
 
-with open(pNum+".cpp", "r") as f:
+with open(pNum+".cpp", "r", encoding='UTF-8') as f:
     lines = f.readlines()
     for line in lines:
         content += line
