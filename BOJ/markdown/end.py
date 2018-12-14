@@ -12,12 +12,14 @@ for filename in parentDirList:
         os.remove(filename)
     if filename.endswith("md"):
         print("move file " + filename)
-        os.system("mv \""+filename + "\" done")
+        os.system("mv "+filename + " done")
 
 num = int(sys.argv[1])
+print(num)
+
 if num < 5000:
-    os.system("mv " + sys.argv[1] + ".cpp ../push/1000~4999")
+    os.system("mv " + sys.argv[1] + ".cpp ../push")
 elif num < 10000:
-    os.system("mv " + sys.argv[1] + ".cpp ../push/5000~9999")
+    os.system("mv " + sys.argv[1] + ".cpp ../push/5000~9999/")
 else:
-    os.system("mv " + sys.argv[1] + ".cpp ../push/10000~19999")
+    os.system("mv " + sys.argv[1] + ".cpp ../push/10000~19999/")
