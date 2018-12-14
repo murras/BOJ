@@ -1,1 +1,0 @@
-python end.py $1
