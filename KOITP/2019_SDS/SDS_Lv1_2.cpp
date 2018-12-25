@@ -24,7 +24,7 @@ int main() {
         bool same;
         int result = 0;
 
-        for (int i = 1; i <= n - count; i++) {
+        for (int i = 1; i <= n - count + 1; i++) {
             int carTest[101];
             memset(carTest, 0, sizeof(carTest));
             same = true;

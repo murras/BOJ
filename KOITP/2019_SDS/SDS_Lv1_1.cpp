@@ -19,7 +19,6 @@ int main() {
             }
         }
         cout << "#" << i << " " << result;
-        if (test != 0) cout << '\n';
     }
     return 0;
 }
