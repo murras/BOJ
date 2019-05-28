@@ -8,7 +8,7 @@ int main() {
     cin >> t;
     while (t--) {
         int x1, y1, r1, x2, y2, r2;
-        cin >> x1 >> y1 >> r1 >> x2 >> y2 >> r2;
+        cin >> x1 >> y1 >> r1 >> x2 >> y2 >> r2; 
 
         int dist_square = (x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2);
         int r_p_square = (r1 + r2) * (r1 + r2);
