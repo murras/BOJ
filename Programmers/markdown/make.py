@@ -13,7 +13,7 @@ pName = pName[:-1]
 
 fileName = "프로그래머스 " + pName + " C++.md"
 
-content = "## [프로그래머스 " + pName + " 문제](LINK)\n\n\n\n"
+content = "## [프로그래머스 " + pName + " 문제](------------)\n\n\n\n"
 content += "프로그래머스 " + pName + " C++\n"
 content += "> " + pName + ".cpp\n\n"
 content += "```cpp\n"
